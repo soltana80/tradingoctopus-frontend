@@ -11,38 +11,38 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   title: {
-    default: 'TradingOctopus - Financial Market Data & Analysis',
+    default: 'TradingOctopus - Financial Data Aggregation & Analysis',
     template: '%s | TradingOctopus',
   },
   description:
-    'Professional financial market data aggregation and analysis platform. ' +
-    'Multi-source data from NASDAQ, NYSE, XETRA and more.',
+    'A personal project by Dr. Florian Drechsler for financial data aggregation, ' +
+    'backtesting, and market analysis across NASDAQ, NYSE, XETRA and more.',
   keywords: [
     'financial data',
     'market analysis',
     'stock market',
     'OHLCV',
-    'trading',
+    'backtesting',
     'NASDAQ',
     'NYSE',
     'XETRA',
   ],
-  authors: [{ name: 'TradingOctopus' }],
+  authors: [{ name: 'Dr. Florian Drechsler', url: 'https://fdrechsler.de' }],
   openGraph: {
     type: 'website',
     locale: 'en_US',
     url: 'https://tradingoctopus.com',
     siteName: 'TradingOctopus',
-    title: 'TradingOctopus - Financial Market Data & Analysis',
+    title: 'TradingOctopus - Financial Data Aggregation & Analysis',
     description:
-      'Professional financial market data aggregation and analysis platform. ' +
-      'Multi-source data from NASDAQ, NYSE, XETRA and more.',
+      'A personal project by Dr. Florian Drechsler for financial data aggregation, ' +
+      'backtesting, and market analysis across NASDAQ, NYSE, XETRA and more.',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'TradingOctopus - Financial Market Data & Analysis',
+    title: 'TradingOctopus - Financial Data Aggregation & Analysis',
     description:
-      'Professional financial market data aggregation and analysis platform.',
+      'A personal project for financial data aggregation, backtesting, and market analysis.',
   },
   robots: {
     index: true,

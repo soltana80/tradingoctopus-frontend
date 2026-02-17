@@ -11,7 +11,7 @@ export default function Hero() {
         {/* Badge */}
         <div className="mb-8 inline-flex items-center gap-2 rounded-full border border-ocean-500/30 bg-ocean-950/50 px-4 py-1.5 text-sm text-ocean-300">
           <span className="inline-block h-2 w-2 rounded-full bg-teal-400" />
-          Financial Data Platform
+          Personal Analysis Project
         </div>
 
         {/* Headline */}
@@ -22,18 +22,27 @@ export default function Hero() {
 
         {/* Subheadline */}
         <p className="mx-auto mb-10 max-w-2xl text-lg leading-relaxed text-slate-400 sm:text-xl">
-          TradingOctopus connects to multiple financial data sources, aggregates
-          OHLCV time series, and delivers unified market insights across NASDAQ,
-          NYSE, XETRA, and more.
+          TradingOctopus is a personal project by{' '}
+          <a
+            href="https://fdrechsler.de"
+            className="text-ocean-400 underline decoration-ocean-400/30 underline-offset-2 transition-colors hover:text-ocean-300"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Dr. Florian Drechsler
+          </a>{' '}
+          for aggregating financial data from multiple sources, backtesting
+          strategies, and analyzing markets across NASDAQ, NYSE, XETRA, and
+          more -- built as a complex AI-driven software showcase.
         </p>
 
         {/* CTA */}
         <div className="flex flex-col items-center justify-center gap-4 sm:flex-row">
           <a
-            href="#coming-soon"
+            href="#features"
             className="inline-flex items-center gap-2 rounded-lg bg-ocean-600 px-6 py-3 font-medium text-white transition-colors hover:bg-ocean-500"
           >
-            Get Early Access
+            Explore Features
             <svg
               className="h-4 w-4"
               fill="none"
@@ -49,10 +58,10 @@ export default function Hero() {
             </svg>
           </a>
           <a
-            href="#features"
+            href="#outlook"
             className="inline-flex items-center gap-2 rounded-lg border border-slate-700 px-6 py-3 font-medium text-slate-300 transition-colors hover:border-slate-600 hover:text-white"
           >
-            Explore Features
+            What&#39;s Next
           </a>
         </div>
       </div>

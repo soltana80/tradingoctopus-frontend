@@ -1,6 +1,6 @@
 import Hero from '@/components/Hero'
 import Features from '@/components/Features'
-import ComingSoon from '@/components/ComingSoon'
+import Outlook from '@/components/Outlook'
 import Footer from '@/components/Footer'
 
 export default function HomePage() {
@@ -8,7 +8,7 @@ export default function HomePage() {
     <>
       <Hero />
       <Features />
-      <ComingSoon />
+      <Outlook />
       <Footer />
     </>
   )
