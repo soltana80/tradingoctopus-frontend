@@ -1,3 +1,5 @@
+import Link from 'next/link'
+
 export default function Footer() {
   const currentYear = new Date().getFullYear()
 
@@ -27,7 +29,7 @@ export default function Footer() {
             </span>
           </div>
 
-          {/* Links */}
+          {/* Navigation Links */}
           <nav className="flex gap-6 text-sm text-slate-500">
             <a
               href="#features"
@@ -41,6 +43,22 @@ export default function Footer() {
             >
               Roadmap
             </a>
+          </nav>
+
+          {/* Legal Links */}
+          <nav className="flex gap-6 text-sm text-slate-500">
+            <Link
+              href="/impressum"
+              className="transition-colors hover:text-slate-300"
+            >
+              Impressum
+            </Link>
+            <Link
+              href="/datenschutz"
+              className="transition-colors hover:text-slate-300"
+            >
+              Datenschutz
+            </Link>
           </nav>
 
           {/* Copyright */}
