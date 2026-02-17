@@ -42,10 +42,10 @@ export default function ImpressumPage() {
           <h1 className="mb-8 text-3xl font-bold text-slate-100">Impressum</h1>
 
           <div className="space-y-8 text-slate-300">
-            {/* Angaben gemaess 5 TMG */}
+            {/* Angaben gemaess 5 DDG */}
             <section>
               <h2 className="mb-3 text-xl font-semibold text-slate-100">
-                Angaben gem&auml;&szlig; &sect; 5 TMG
+                Angaben gem&auml;&szlig; &sect; 5 DDG
               </h2>
               <p>
                 Dr. Florian Drechsler
@@ -96,9 +96,9 @@ export default function ImpressumPage() {
                 erstellt. F&uuml;r die Richtigkeit, Vollst&auml;ndigkeit und
                 Aktualit&auml;t der Inhalte k&ouml;nnen wir jedoch keine
                 Gew&auml;hr &uuml;bernehmen. Als Diensteanbieter sind wir
-                gem&auml;&szlig; &sect; 7 Abs. 1 TMG f&uuml;r eigene Inhalte auf
+                gem&auml;&szlig; &sect; 7 Abs. 1 DDG f&uuml;r eigene Inhalte auf
                 diesen Seiten nach den allgemeinen Gesetzen verantwortlich. Nach
-                &sect;&sect; 8 bis 10 TMG sind wir als Diensteanbieter jedoch
+                &sect;&sect; 8 bis 10 DDG sind wir als Diensteanbieter jedoch
                 nicht verpflichtet, &uuml;bermittelte oder gespeicherte fremde
                 Informationen zu &uuml;berwachen oder nach Umst&auml;nden zu
                 forschen, die auf eine rechtswidrige T&auml;tigkeit hinweisen.
