@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import DisclaimerFooter from '@/components/legal/DisclaimerFooter'
 
 export default function Footer() {
   const currentYear = new Date().getFullYear()
@@ -59,6 +60,12 @@ export default function Footer() {
             >
               Datenschutz
             </Link>
+            <Link
+              href="/risikohinweis"
+              className="transition-colors hover:text-slate-300"
+            >
+              Risikohinweis
+            </Link>
           </nav>
 
           {/* Copyright */}
@@ -66,6 +73,8 @@ export default function Footer() {
             &copy; {currentYear} TradingOctopus
           </p>
         </div>
+
+        <DisclaimerFooter />
       </div>
     </footer>
   )
