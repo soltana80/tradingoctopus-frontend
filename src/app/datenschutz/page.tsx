@@ -50,13 +50,17 @@ export default function DatenschutzPage() {
                 Verantwortliche Stelle
               </h2>
               <p>
-                [TODO: Vollst&auml;ndiger Name / Firmenname]
+                Die verantwortliche Stelle f&uuml;r die Datenverarbeitung auf
+                dieser Website ist:
+              </p>
+              <p className="mt-2">
+                Dr. Florian Drechsler
                 <br />
-                [TODO: Stra&szlig;e und Hausnummer]
+                Panitzstr. 14
                 <br />
-                [TODO: PLZ und Ort]
+                04229 Leipzig
                 <br />
-                E-Mail: [TODO: E-Mail-Adresse]
+                E-Mail: contact@fdrechsler.de
               </p>
             </section>
 
@@ -87,7 +91,10 @@ export default function DatenschutzPage() {
                 <li>Zu weiteren administrativen Zwecken</li>
               </ul>
               <p className="mt-2 text-slate-400">
-                [TODO: Weitere Details zur Datenerhebung erg&auml;nzen]
+                Ihre Daten werden nicht an Dritte weitergegeben. Die
+                Rechtsgrundlage f&uuml;r die Datenverarbeitung ist Art. 6 Abs.
+                1 lit. f DSGVO (berechtigtes Interesse an der technischen
+                Bereitstellung und Sicherheit der Website).
               </p>
             </section>
 
@@ -97,9 +104,18 @@ export default function DatenschutzPage() {
                 Cookies
               </h2>
               <p className="text-slate-400">
-                [TODO: Beschreibung der verwendeten Cookies, deren Zweck und
-                Speicherdauer. Angaben zu technisch notwendigen Cookies und
-                optionalen Cookies (z.B. Analyse, Marketing).]
+                Diese Website verwendet Cookies. Das sind kleine Textdateien,
+                die Ihr Webbrowser auf Ihrem Endger&auml;t speichert. Cookies
+                helfen uns dabei, unser Angebot nutzerfreundlicher und
+                effektiver zu gestalten.
+              </p>
+              <p className="mt-2 text-slate-400">
+                Einige Cookies sind &quot;Session-Cookies&quot; und werden nach
+                Ende Ihrer Browser-Sitzung automatisch gel&ouml;scht. Andere
+                Cookies bleiben auf Ihrem Endger&auml;t gespeichert, bis Sie
+                diese l&ouml;schen oder sie ablaufen. Diese Cookies
+                erm&ouml;glichen es, Ihren Browser beim n&auml;chsten Besuch
+                wiederzuerkennen.
               </p>
             </section>
 
@@ -109,22 +125,27 @@ export default function DatenschutzPage() {
                 Hosting
               </h2>
               <p className="text-slate-400">
-                [TODO: Name und Adresse des Hosting-Anbieters. Informationen zur
-                Datenverarbeitung durch den Hoster, Serverstandort und ggf.
-                Auftragsverarbeitungsvertrag (AVV).]
+                Diese Website wird auf einem Server der netcup GmbH,
+                Daimlerstra&szlig;e 25, 76185 Karlsruhe gehostet. Der
+                Hosting-Anbieter erhebt und speichert automatisch Informationen
+                in sogenannten Server-Log-Dateien, die Ihr Browser automatisch
+                &uuml;bermittelt. Der Serverstandort ist Deutschland.
               </p>
             </section>
 
             {/* Kontaktformular */}
             <section>
               <h2 className="mb-3 text-xl font-semibold text-slate-100">
-                Kontaktformular
+                Kontaktaufnahme per E-Mail
               </h2>
               <p className="text-slate-400">
-                [TODO: Sofern ein Kontaktformular vorhanden ist &ndash; Angaben
-                zu den erhobenen Daten, Zweck der Verarbeitung, Rechtsgrundlage
-                und Speicherdauer. Falls kein Kontaktformular vorhanden, diesen
-                Abschnitt entfernen.]
+                Wenn Sie uns per E-Mail kontaktieren, werden Ihre Angaben
+                (E-Mail-Adresse, ggf. Name und Ihre Nachricht) von uns
+                gespeichert, um Ihre Anfrage zu bearbeiten. Die in diesem
+                Zusammenhang anfallenden Daten l&ouml;schen wir, nachdem die
+                Speicherung nicht mehr erforderlich ist, oder schr&auml;nken die
+                Verarbeitung ein, falls gesetzliche Aufbewahrungspflichten
+                bestehen.
               </p>
             </section>
 

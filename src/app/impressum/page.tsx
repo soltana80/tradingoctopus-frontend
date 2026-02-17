@@ -48,11 +48,13 @@ export default function ImpressumPage() {
                 Angaben gem&auml;&szlig; &sect; 5 TMG
               </h2>
               <p>
-                [TODO: Vollst&auml;ndiger Name / Firmenname]
+                Dr. Florian Drechsler
                 <br />
-                [TODO: Stra&szlig;e und Hausnummer]
+                Panitzstr. 14
                 <br />
-                [TODO: PLZ und Ort]
+                04229 Leipzig
+                <br />
+                Deutschland
               </p>
             </section>
 
@@ -62,9 +64,7 @@ export default function ImpressumPage() {
                 Kontakt
               </h2>
               <p>
-                Telefon: [TODO: Telefonnummer]
-                <br />
-                E-Mail: [TODO: E-Mail-Adresse]
+                E-Mail: contact@fdrechsler.de
               </p>
             </section>
 
@@ -74,11 +74,11 @@ export default function ImpressumPage() {
                 Verantwortlich f&uuml;r den Inhalt nach &sect; 18 Abs. 2 MStV
               </h2>
               <p>
-                [TODO: Vollst&auml;ndiger Name]
+                Dr. Florian Drechsler
                 <br />
-                [TODO: Stra&szlig;e und Hausnummer]
+                Panitzstr. 14
                 <br />
-                [TODO: PLZ und Ort]
+                04229 Leipzig
               </p>
             </section>
 
