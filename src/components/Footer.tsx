@@ -39,10 +39,10 @@ export default function Footer() {
               Features
             </a>
             <a
-              href="#coming-soon"
+              href="#outlook"
               className="transition-colors hover:text-slate-300"
             >
-              Roadmap
+              Outlook
             </a>
           </nav>
 

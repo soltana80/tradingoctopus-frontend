@@ -2,8 +2,8 @@ const features = [
   {
     title: 'Multi-Source Aggregation',
     description:
-      'Pull data from Yahoo Finance and other providers into a single, ' +
-      'unified interface. No more juggling multiple APIs.',
+      'Pulls data from Yahoo Finance and other providers into a single, ' +
+      'unified store. Multiple APIs are consolidated automatically.',
     icon: (
       <svg
         className="h-6 w-6"
@@ -23,7 +23,7 @@ const features = [
   {
     title: 'OHLCV Time Series',
     description:
-      'Access Open, High, Low, Close, and Volume data with configurable ' +
+      'Stores Open, High, Low, Close, and Volume data with configurable ' +
       'time intervals. Clean, normalized, and ready for analysis.',
     icon: (
       <svg
@@ -44,8 +44,8 @@ const features = [
   {
     title: 'Multi-Venue Coverage',
     description:
-      'Trade data from NASDAQ, NYSE, XETRA, and other major exchanges. ' +
-      'Get a global view of instrument performance.',
+      'Covers data from NASDAQ, NYSE, XETRA, and other major exchanges. ' +
+      'Provides a global view of instrument performance.',
     icon: (
       <svg
         className="h-6 w-6"
@@ -65,7 +65,7 @@ const features = [
   {
     title: 'Financial Events',
     description:
-      'Track dividends, stock splits, earnings reports, and other ' +
+      'Tracks dividends, stock splits, earnings reports, and other ' +
       'corporate actions that impact instrument pricing.',
     icon: (
       <svg
@@ -105,10 +105,10 @@ const features = [
     ),
   },
   {
-    title: 'API-First Design',
+    title: 'Backtesting Engine',
     description:
-      'Built for developers. RESTful API with consistent response formats, ' +
-      'pagination, and comprehensive documentation.',
+      'Runs historical strategy simulations against collected time series ' +
+      'data to evaluate trading ideas before risking real capital.',
     icon: (
       <svg
         className="h-6 w-6"
@@ -120,7 +120,7 @@ const features = [
           strokeLinecap="round"
           strokeLinejoin="round"
           strokeWidth={1.5}
-          d="M17.25 6.75L22.5 12l-5.25 5.25m-10.5 0L1.5 12l5.25-5.25m7.5-3l-4.5 16.5"
+          d="M12 6v6h4.5m4.5 0a9 9 0 11-18 0 9 9 0 0118 0z"
         />
       </svg>
     ),
@@ -134,12 +134,12 @@ export default function Features() {
         {/* Section heading */}
         <div className="mb-16 text-center">
           <h2 className="mb-4 text-3xl font-bold sm:text-4xl">
-            Built for{' '}
-            <span className="gradient-text">Serious Market Analysis</span>
+            Project{' '}
+            <span className="gradient-text">Capabilities</span>
           </h2>
           <p className="mx-auto max-w-2xl text-lg text-slate-400">
-            Everything you need to aggregate, normalize, and analyze financial
-            market data from multiple sources in one place.
+            Core components for aggregating, normalizing, and analyzing
+            financial market data from multiple sources.
           </p>
         </div>
 
