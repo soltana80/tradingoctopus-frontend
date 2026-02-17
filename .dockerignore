@@ -1,0 +1,17 @@
+node_modules
+.next
+.git
+.gitignore
+.env
+.env.*
+!.env.example
+Dockerfile*
+docker-compose*
+.dockerignore
+README.md
+.eslintcache
+.prettier*
+*.log
+coverage
+.vscode
+.idea
